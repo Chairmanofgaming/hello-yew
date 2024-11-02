@@ -640,11 +640,11 @@ function __wbg_get_imports() {
     imports.wbg.__wbindgen_throw = function(arg0, arg1) {
         throw new Error(getStringFromWasm0(arg0, arg1));
     };
-    imports.wbg.__wbindgen_closure_wrapper1342 = function(arg0, arg1, arg2) {
+    imports.wbg.__wbindgen_closure_wrapper1358 = function(arg0, arg1, arg2) {
         const ret = makeClosure(arg0, arg1, 139, __wbg_adapter_20);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper2984 = function(arg0, arg1, arg2) {
+    imports.wbg.__wbindgen_closure_wrapper3002 = function(arg0, arg1, arg2) {
         const ret = makeMutClosure(arg0, arg1, 239, __wbg_adapter_23);
         return addHeapObject(ret);
     };
